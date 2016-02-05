@@ -1,32 +1,3 @@
-/*
-    So you like the style of impress.js demo?
-    Or maybe you are just curious how it was done?
-
-    You couldn't find a better place to find out!
-
-    Welcome to the stylesheet impress.js demo presentation.
-
-    Please remember that it is not meant to be a part of impress.js and is
-    not required by impress.js.
-    I expect that anyone creating a presentation for impress.js would create
-    their own set of styles.
-
-    But feel free to read through it and learn how to get the most of what
-    impress.js provides.
-
-    And let me be your guide.
-
-    Shall we begin?
-*/
-
-
-/*
-    We start with a good ol' reset.
-    That's the one by Eric Meyer http://meyerweb.com/eric/tools/css/reset/
-
-    You can probably argue if it is needed here, or not, but for sure it
-    doesn't do any harm and gives us a fresh start.
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -82,16 +53,19 @@ table {
     want to leave anybody behind.
 */
 body {
-    font-family: 'PT Sans', sans-serif;
     min-height: 740px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    background: black;
 
-    background: rgb(215, 215, 215);
+    /*
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    */
 }
 
 /*
@@ -146,7 +120,7 @@ a:focus {
 
     border: 1px solid #E4C652;
     border-radius: 10px;
-    background: #EEDC94;
+    background: black;
 }
 
 .fallback-message p {
@@ -168,6 +142,7 @@ a:focus {
     width: 900px;
     padding: 40px;
     margin: 20px auto;
+    text-align: center;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing:    border-box;
@@ -187,7 +162,7 @@ a:focus {
 */
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.3;
+    opacity: 0.0;
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
@@ -249,6 +224,10 @@ a:focus {
     First is the title step with a big <h1> (no room for padding) and some
     3D positioning along Z axis.
 */
+
+#shapes, #logo {
+    text-align: center;
+}
 
 #title {
     padding: 0;
