@@ -149,10 +149,13 @@ a:focus {
     -ms-box-sizing:     border-box;
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
-
-    font-family: 'PT Serif', georgia, serif;
-    font-size: 48px;
+   
     line-height: 1.5;
+    font-family: 'Dosis', Arial, sans-serif;
+    font-size: 85px;
+    line-height: 100px;
+    letter-spacing: 4px;
+    font-weight: 800;
 }
 
 /*
