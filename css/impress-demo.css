@@ -154,8 +154,9 @@ a:focus {
     font-family: 'Dosis', Arial, sans-serif;
     font-size: 85px;
     line-height: 100px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     font-weight: 800;
+    color: #f406fa;
 }
 
 /*
@@ -230,6 +231,19 @@ a:focus {
 
 #shapes, #logo {
     text-align: center;
+}
+
+.logo {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 124px solid #f406fa;
+    border-radius: 110px;
+}
+
+q > .logo {
+    margin-bottom: 50px;
 }
 
 #title {
